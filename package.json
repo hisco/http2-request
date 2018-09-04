@@ -1,0 +1,40 @@
+{
+  "name": "h2-request",
+  "version": "0.0.1",
+  "description": "Simplified HTTP2 / HTTP1 request client.",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "mocha --recursive --reporter spec",
+    "watch-test": "mocha --recursive --watch --reporter spec",
+    "test-ci": "istanbul cover ./node_modules/mocha/bin/_mocha test/**/*.js --report lcovonly -- -R spec && cat ./coverage/lcov.info"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "chai-spies": "^1.0.0",
+    "http2-debug": "1.0.1",
+    "istanbul": "0.4.5",
+    "mocha": "^5.1.1"
+  },
+  "keywords": [
+    "http2",
+    "http2 client",
+    "request",
+    "compatible",
+    "client",
+    "compatibility"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hisco/http2-request.git"
+  },
+  "bugs": {
+    "url": "https://github.com/hisco/http2-request/issues"
+  },
+  "homepage": "https://github.com/hisco",
+  "author": "Eyald <hisco@googlegroups.com‬>",
+  "license": "MIT",
+  "dependencies": {
+    "http2-client": "^1.2.2",
+    "request": "^2.88.0"
+  }
+}
