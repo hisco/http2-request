@@ -33,8 +33,8 @@ To see the full API documentation:
 
   [MIT](LICENSE)
 
-[npm-image]: https://img.shields.io/npm/v/http2-request.svg
-[npm-url]: https://npmjs.org/package/http2-request
+[npm-image]: https://img.shields.io/npm/v/h2-request.svg
+[npm-url]: https://npmjs.org/package/h2-request
 [travis-image]: https://img.shields.io/travis/hisco/http2-request/master.svg?style=flat-square
 [travis-url]: https://travis-ci.org/hisco/http2-request
 [snyk-image]: https://snyk.io/test/github/hisco/http2-request/badge.svg?targetFile=package.json
