@@ -1,6 +1,6 @@
 {
   "name": "h2-request",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Simplified HTTP2 / HTTP1 request client.",
   "main": "lib/index.js",
   "scripts": {
