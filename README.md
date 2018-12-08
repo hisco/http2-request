@@ -1,5 +1,7 @@
 # HTTP2 request
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/hisco/http2-request.svg)](https://greenkeeper.io/)
+
 [![NPM Version][npm-image]][npm-url]
 [![Build Status][travis-image]][travis-url]
 [![Known Vulnerabilities][snyk-image]][snyk-url]
